@@ -27,7 +27,7 @@ const Professionpage = () => {
       <ComponentTransition className="flex flex-col md:flex-row items-center justify-center  pb-10 mt-10 px-6 md:px-10  ">
         <div className="w-full md:w-[68%] px-5 lg:px-10 py-5  mb-5 md:mb-0">
           <h1 className="text-2xl font-bold py-2 ">
-          [{profession.title}]
+          {profession.title}
           </h1>
           <p className="text-base  mt-5 leading-relaxed">
           To enhance effectiveness and efficiency,  {profession.title} can leverage AI chat products centralizing multiple large language models (LLMs) like Gemini, Mistral, Llama, GPT, and Claude. These AI assistants provide instant access to  [{profession.title}] knowledge bases, and documents, answer complex questions, and offer data-driven insights for strategy. By utilizing these LLMs&apos; advanced natural language processing and generation capabilities,  [{profession.title}] can streamline processes, improve workflow and communication, and focus on high-value strategic initiatives driving organizational success.          </p>
