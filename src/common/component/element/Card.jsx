@@ -7,7 +7,7 @@ export default function Card({ Content }) {
   return (
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 py-10">
       {Content.map((item, index) => (
-        <Link href={`/profession/${item.slug}`} legacyBehavior>
+        <Link href={`/profession/${item.slug}`} key={item.slug} legacyBehavior>
           <a className="flex border-[1px] relative group z-[9] dark:border-white border-black hover:lg:border-black overflow-hidden rounded-3xl flex-col items-center text-center p-6">
             <ComponentTransition
               delay={index * 0.2}

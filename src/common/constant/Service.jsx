@@ -42,6 +42,7 @@ export const Services = [
   },
 ];
 
+
 export const ServiceItem = [
   {
     title: 'HR Managers',
@@ -53,68 +54,67 @@ export const ServiceItem = [
     title: 'Project Manager',
     desc: 'Plans, executes, and monitors projects to ensure successful completion.',
     icon: <FaPager className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'product-managers'
+    slug: 'project-manager'
   },
-
   {
     title: 'Product Manager',
-    desc: ' eads the strategy, development, and launch of a product.',
+    desc: 'Leads the strategy, development, and launch of a product.',
     icon: <IoDiamondOutline className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'software-developers'
+    slug: 'product-manager'
   },
   {
     title: 'Marketer',
     desc: "Creates and implements strategies to promote a company's products or services.",
     icon: <CiShop className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'teachers'
+    slug: 'marketer'
   },
   {
     title: 'Business Analyst',
     desc: 'Analyzes business needs and develops solutions to improve efficiency.',
     icon: <IoIosSchool className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'data-scientists'
+    slug: 'business-analyst'
   },
   {
     title: 'Operations Manager',
     desc: 'Optimizes day-to-day business processes to ensure smooth operations.',
     icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'designers'
+    slug: 'operations-manager'
   },
   {
     title: 'Software Developer',
     desc: 'Writes code to create and maintain software applications.',
     icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'pr-specialists'
+    slug: 'software-developer'
   },
   {
     title: 'Content Writer & Creator',
     desc: 'Develops engaging written, visual, or audio content.',
     icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'content-writers'
+    slug: 'content-writer-creator'
   },
   {
     title: 'Public Relations Specialist',
     desc: "Manages a company's public image and builds relationships with the media.",
     icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'project-managers'
+    slug: 'public-relations-specialist'
   },
   {
-    title: ' Designer',
+    title: 'Designer',
     desc: 'Creates visual elements like user interfaces, graphics, or physical products.',
     icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'operations-managers'
+    slug: 'designer'
   },
   {
     title: 'Data Scientist',
     desc: 'Extracts insights and knowledge from data using statistical methods and machine learning.',
     icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'business-analysts'
+    slug: 'data-scientist'
   },
   {
     title: 'Teacher',
-    desc: 'Educates and imparts knowledge to students in a specific subject area. ',
+    desc: 'Educates and imparts knowledge to students in a specific subject area.',
     icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
-    slug: 'marketers'
+    slug: 'teacher'
   },
 ];
 
