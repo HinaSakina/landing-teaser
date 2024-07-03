@@ -5,18 +5,18 @@ const ModelContent = () => {
         <div>
             <div className="py-10 px-10 max-md:px-5 md:px-32 text-justify">
                 <h1 className="text-3xl py-3 font-bold">
-                    [Model Name]: A Comprehensive Guide to [Company]&apos;s Advanced Language Model
+                    GPT 4: A Comprehensive Guide to [Company]&apos;s Advanced Language Model
                 </h1>
-                <h2 className="text-2xl py-3 font-bold">Introduction to [Model Name]</h2>
+                <h2 className="text-2xl py-3 font-bold">Introduction to GPT 4</h2>
                 <p className="pb-5 leading-relaxed">
-                    [Model Name] is a cutting-edge large language model (LLM) developed by [Company], a pioneer in the field of artificial intelligence. It represents a significant leap forward in artificial intelligence and natural language processing, marking a major milestone in the quest to create intelligent machines that can understand, process, and generate human-like language.
+                    GPT 4 is a cutting-edge large language model (LLM) developed by [Company], a pioneer in the field of artificial intelligence. It represents a significant leap forward in artificial intelligence and natural language processing, marking a major milestone in the quest to create intelligent machines that can understand, process, and generate human-like language.
                 </p>
                 <p className="pb-5 leading-relaxed">
-                    This model is designed to understand, generate, and manipulate human-like text with unprecedented accuracy and fluency, enabling it to tackle complex tasks such as conversational dialogue, text summarization, language translation, and content creation. By leveraging the latest advancements in deep learning and natural language processing, [Model Name] has achieved a level of sophistication and maturity that enables it to engage in coherent and contextually relevant conversations, making it an invaluable tool for a wide range of applications across industries.
+                    This model is designed to understand, generate, and manipulate human-like text with unprecedented accuracy and fluency, enabling it to tackle complex tasks such as conversational dialogue, text summarization, language translation, and content creation. By leveraging the latest advancements in deep learning and natural language processing, GPT 4 has achieved a level of sophistication and maturity that enables it to engage in coherent and contextually relevant conversations, making it an invaluable tool for a wide range of applications across industries.
                 </p>
                 <h2 className="text-2xl py-3 font-bold">What is a Large Language Model?</h2>
                 <p className="pb-5 leading-relaxed">
-                    Before we explore [Model Name], let&apos;s start with the basics. A large language model (LLM) is a special kind of computer program that can understand and generate human-like language. This means they can read, understand, and even write text that sounds like it was written by a person.
+                    Before we explore GPT 4, let&apos;s start with the basics. A large language model (LLM) is a special kind of computer program that can understand and generate human-like language. This means they can read, understand, and even write text that sounds like it was written by a person.
                 </p>
                 <p className="pb-5 leading-relaxed">
                     Think of LLMs like super-smart computers that can have conversations with us in a way that feels natural and easy to understand. They&apos;re designed to help us communicate better and make tasks easier.
@@ -42,47 +42,47 @@ const ModelContent = () => {
                     By mastering these capabilities, LLMs have the potential to transform various industries and applications, from customer service and language translation to content creation and education.
                 </p>
                 <h1 className="text-3xl py-3 font-bold">
-                    What are the Applications of [LLM Name]?
+                    What are the Applications of GPT 4?
                 </h1>
-                <h2 className="text-2xl py-3 font-bold">1. [LLM Name] for Content Creation and Optimization</h2>
+                <h2 className="text-2xl py-3 font-bold">1. GPT 4 for Content Creation and Optimization</h2>
                 <p className="pb-5 leading-relaxed">
-                    [LLM Name] can be leveraged to create and improve content across different fields. Whether it&apos;s drafting blog posts, generating social media content, or writing product descriptions, the model can streamline and enhance the content creation process. For instance, a marketer could use [LLM Name] to generate engaging ad copy, while a product manager could use it to write detailed product specifications.
+                    GPT 4 can be leveraged to create and improve content across different fields. Whether it&apos;s drafting blog posts, generating social media content, or writing product descriptions, the model can streamline and enhance the content creation process. For instance, a marketer could use GPT 4 to generate engaging ad copy, while a product manager could use it to write detailed product specifications.
                 </p>
                 <ul className="list-disc pl-6">
                     <li className="pb-2 leading-relaxed">Drafting articles, social media posts, and marketing copy</li>
                     <li className="pb-2 leading-relaxed">Providing automated proofreading and style suggestions</li>
                     <li className="pb-5 leading-relaxed">Generating ad copy and product descriptions</li>
                 </ul>
-                <h2 className="text-2xl py-3 font-bold">2. [LLM Name] for Data Analysis and Interpretation</h2>
+                <h2 className="text-2xl py-3 font-bold">2. GPT 4 for Data Analysis and Interpretation</h2>
                 <p className="pb-5 leading-relaxed">
-                    [LLM Name] can be utilized to extract insights from complex datasets and present them in an understandable format. This can be critical for data-driven decision-making in various roles, from analyzing market trends to interpreting business performance metrics. For example, a business analyst could use [LLM Name] to analyze sales data, while an HR manager could leverage it to interpret employee survey results.
+                    GPT 4 can be utilized to extract insights from complex datasets and present them in an understandable format. This can be critical for data-driven decision-making in various roles, from analyzing market trends to interpreting business performance metrics. For example, a business analyst could use GPT 4 to analyze sales data, while an HR manager could leverage it to interpret employee survey results.
                 </p>
                 <ul className="list-disc pl-6">
                     <li className="pb-2 leading-relaxed">Extracting insights from large datasets</li>
                     <li className="pb-2 leading-relaxed">Generating human-readable reports from complex data</li>
                     <li className="pb-5 leading-relaxed">Streamlining data interpretation for quick decision-making</li>
                 </ul>
-                <h2 className="text-2xl py-3 font-bold">3. [LLM Name] for Meeting and Communication Efficiency</h2>
+                <h2 className="text-2xl py-3 font-bold">3. GPT 4 for Meeting and Communication Efficiency</h2>
                 <p className="pb-5 leading-relaxed">
-                    [LLM Name] can enhance meeting productivity and communication by generating meeting summaries and creating action items. This is beneficial for project managers, HR managers, and team leaders to maintain clear and effective communication within the team. For instance, a project manager could use [LLM Name] to create detailed meeting minutes, while an operations manager could use it to facilitate team collaboration.
+                    GPT 4 can enhance meeting productivity and communication by generating meeting summaries and creating action items. This is beneficial for project managers, HR managers, and team leaders to maintain clear and effective communication within the team. For instance, a project manager could use GPT 4 to create detailed meeting minutes, while an operations manager could use it to facilitate team collaboration.
                 </p>
                 <ul className="list-disc pl-6">
                     <li className="pb-2 leading-relaxed">Summarizing meeting discussions and decisions</li>
                     <li className="pb-2 leading-relaxed">Generating action items</li>
                     <li className="pb-5 leading-relaxed">Facilitating clear team communication</li>
                 </ul>
-                <h2 className="text-2xl py-3 font-bold">4. [LLM Name] for Document Analysis and Processing</h2>
+                <h2 className="text-2xl py-3 font-bold">4. GPT 4 for Document Analysis and Processing</h2>
                 <p className="pb-2 leading-relaxed">
-                    [LLM Name] can assist professionals in analyzing and processing documents more efficiently. This can include summarizing long documents, translating content, and extracting key information. For example, a lawyer could use [LLM Name] to summarize legal documents, while a marketing researcher could leverage it to analyze customer feedback.
+                    GPT 4 can assist professionals in analyzing and processing documents more efficiently. This can include summarizing long documents, translating content, and extracting key information. For example, a lawyer could use GPT 4 to summarize legal documents, while a marketing researcher could leverage it to analyze customer feedback.
                 </p>
                 <ul className="list-disc pl-6">
                     <li className="pb-2 leading-relaxed">Summarizing long documents and articles</li>
                     <li className="pb-2 leading-relaxed">Translating content across languages</li>
                     <li className="pb-5 leading-relaxed">Extracting key information from documents</li>
                 </ul>
-                <h2 className="text-2xl py-3 font-bold">5. [LLM Name] for Image Analysis and Interpretation</h2>
+                <h2 className="text-2xl py-3 font-bold">5. GPT 4 for Image Analysis and Interpretation</h2>
                 <p className="pb-2 leading-relaxed">
-                    [LLM Name] can be utilized to analyze and interpret visual data, providing insights that drive strategic decision-making. This can be valuable for marketing professionals, product managers, and business analysts. For instance, a product manager could use [LLM Name] to analyze customer preferences from product images, while a marketer could leverage it to craft more effective ad campaigns.
+                    GPT 4 can be utilized to analyze and interpret visual data, providing insights that drive strategic decision-making. This can be valuable for marketing professionals, product managers, and business analysts. For instance, a product manager could use GPT 4 to analyze customer preferences from product images, while a marketer could leverage it to craft more effective ad campaigns.
                 </p>
                 <ul className="list-disc pl-6">
                     <li className="pb-2 leading-relaxed">Analyzing image data for insights</li>
@@ -104,9 +104,9 @@ const ModelContent = () => {
                 <h2 className="text-2xl py-3 font-bold">FAQs</h2>
                 <ol className="list-decimal pl-6">
                     <li className="pb-2 leading-relaxed"><strong>What is an LLM?</strong> An LLM (Large Language Model) is a type of artificial intelligence (AI) designed to process and understand human language.</li>
-                    <li className="pb-2 leading-relaxed"><strong>What is the [LLM Name] model?</strong> The [LLM Name] model is a specific type of LLM developed by [Developer/Company] for general-purpose language understanding and generation.</li>
-                    <li className="pb-2 leading-relaxed"><strong>How can I use the [LLM Name] model?</strong> The [LLM Name] model can be used for a variety of applications, including general conversational AI, content generation, language translation, coding and programming, and more.</li>
-                    <li className="pb-2 leading-relaxed"><strong>What are some specific use cases for the [LLM Name] model?</strong> Some specific use cases for the [LLM Name] model include building chatbots, generating articles and blog posts, translating text from one language to another, and even writing code in programming languages like Python and Java.</li>
+                    <li className="pb-2 leading-relaxed"><strong>What is the GPT 4 model?</strong> The GPT 4 model is a specific type of LLM developed by [Developer/Company] for general-purpose language understanding and generation.</li>
+                    <li className="pb-2 leading-relaxed"><strong>How can I use the GPT 4 model?</strong> The GPT 4 model can be used for a variety of applications, including general conversational AI, content generation, language translation, coding and programming, and more.</li>
+                    <li className="pb-2 leading-relaxed"><strong>What are some specific use cases for the GPT 4 model?</strong> Some specific use cases for the GPT 4 model include building chatbots, generating articles and blog posts, translating text from one language to another, and even writing code in programming languages like Python and Java.</li>
                 </ol>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Card = () => {
       <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
         <WiDayCloudy size={50} />
         <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Claude
+        Gemini
         </h1>
         <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
           Elevate Your Business with Teaser SaaS!
@@ -53,7 +53,7 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        GPT 4 
+        Claude 
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
           Your Gateway to Streamlined Excellence
@@ -71,7 +71,7 @@ const Card = () => {
         <div className="absolute  glowbg inset-0  left-0 "></div>
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        GPT 4 Omni
+        GPT
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
           Teaser SaaS - Redefining Productivity
@@ -87,7 +87,7 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Llama 3
+        Llama
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
           Your Gateway to Streamlined Excellence
@@ -99,11 +99,24 @@ const Card = () => {
       </ComponentTransition>
       <ComponentTransition
         delay={0.1}
+        className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
+      >
+        <Image
+          src="/img.png"
+          alt="Header Image"
+          width={400}
+          height={400}
+          loading="lazy"
+          className="w-full h-auto object-cover scale-110"
+        />
+      </ComponentTransition>
+      <ComponentTransition
+        delay={0.1}
         className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-[#0a0a0a] border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Perplexity
+        Mistral
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
         Teaser - Your Strategic Partner!
@@ -118,7 +131,7 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Gemini
+        Perplexity
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
         Teaser Unleashes Creativity!
@@ -133,7 +146,7 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Mistral
+        Dall-E
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
         Teaser Unleashes Creativity!
@@ -157,21 +170,7 @@ const Card = () => {
         />
       </ComponentTransition>
 
-      <ComponentTransition
-        delay={0.1}
-        className="w-full h-[250px]  px-10 py-5 md:basis-[30%] overflow-hidden dark:bg-[#0a0a0a] border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-      >
-        <FaCode size={40} />
-        <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-        Dalle 3
-        </h1>
-        <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
-         Teaser SaaS Accelerates Your Journey!
-        </h2>
-        <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-        Teaser SaaS is your express route to success. With streamlined processes and accelerated functionalities
-        </p>
-      </ComponentTransition>
+      
     </div>
   );
 };

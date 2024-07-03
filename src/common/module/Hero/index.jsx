@@ -55,25 +55,25 @@ const Hero = () => {
       <div className="flex flex-col justify-center md:top-0 mt-28 lg:mt-36  items-center">
         <div className="flex flex-col items-center justify-center">
           <div className="border-[1px] rounded-full border-[#5515df] py-2 px-5">
-            <h1>Make Your Startup 🚀 </h1>
+            <h1>Take it to The Next Level 🚀 </h1>
           </div>
           <H1
-            className=" xl:w-[80%] 2xl:w-[80%] !leading-[0.85em] items-center flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-center text-4xl sm:text-5xl md:text-7xl w-full  font-bold pb-1"
-            title="Get the Results You Want!"
+            className=" xl:w-[80%] 2xl:w-[80%] mt-6 !leading-[0.85em] items-center flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-center text-4xl sm:text-5xl md:text-7xl w-full  font-bold pb-1"
+            title="A Resource Hub for All Your AI needs"
           />
 
           <p className="lg:w-[70%] text-center  lg:text-2xl mt-2 dark:text-neutral-300 text-neutral-700">
-          Go beyond generic content by crafting personalized prompts 
-that incorporate your industry knowledge and expertise, resulting 
-in more accurate and impactful content.          </p>
+            Discover AI strategies and resources designed to elevate your expertise. Transform your professional journey with practical AI tools and techniques customized for your field.
+          </p>
+          
+            <motion.div className="flex max-md:flex-col w-full items-center justify-center gap-5 py-5">
+              <ButtonSpot
+                title="Get Started"
 
-          <motion.div className="flex 
- max-md:flex-col w-full items-center justify-center gap-5 py-5">
-            <ButtonSpot
-              title="Get Started"
-              className="!rounded-md !w-auto !py-2"
-            />
-          </motion.div>
+                className="!rounded-md !w-auto !py-2"
+              />
+            </motion.div>
+         
         </div>
 
         <div className=" absolute w-[90%] top-[20%] h-[300px] z-[-99] ">

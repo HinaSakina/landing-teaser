@@ -87,7 +87,6 @@ const Navbar = () => {
           <div className="px-2">
             <DarkmodeSwitch />
           </div>
-          <ButtonSpot title="Get This Template" />
         </div>
       </div>
     </motion.div>

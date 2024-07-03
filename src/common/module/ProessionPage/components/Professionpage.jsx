@@ -30,13 +30,13 @@ const Professionpage = () => {
           [{profession.title}]
           </h1>
           <p className="text-base  mt-5 leading-relaxed">
-          To enhance effectiveness and efficiency,  [{profession.title}] can leverage AI chat products centralizing multiple large language models (LLMs) like Gemini, Mistral, Llama, GPT, and Claude. These AI assistants provide instant access to  [{profession.title}] knowledge bases, and documents, answer complex questions, and offer data-driven insights for strategy. By utilizing these LLMs&apos; advanced natural language processing and generation capabilities,  [{profession.title}] can streamline processes, improve workflow and communication, and focus on high-value strategic initiatives driving organizational success.          </p>
+          To enhance effectiveness and efficiency,  {profession.title} can leverage AI chat products centralizing multiple large language models (LLMs) like Gemini, Mistral, Llama, GPT, and Claude. These AI assistants provide instant access to  [{profession.title}] knowledge bases, and documents, answer complex questions, and offer data-driven insights for strategy. By utilizing these LLMs&apos; advanced natural language processing and generation capabilities,  [{profession.title}] can streamline processes, improve workflow and communication, and focus on high-value strategic initiatives driving organizational success.          </p>
         </div>
       </ComponentTransition>
       <Solution/>
       <div>
         <h1 className="text-4xl md:text-4xl py-5 px-10 text-center dark:bg-gradient-to-r from-white from-50% to-[#979797] bg-text bg-clip-text  text-transparent font-bold">
-        Explore LLMs for  [{profession.title}]
+        Explore LLMs for  {profession.title}
           </h1>
         <Service/>
        

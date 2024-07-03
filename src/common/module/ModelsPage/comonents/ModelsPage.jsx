@@ -18,13 +18,12 @@ const ModelsPage = () => {
           />
         </div>
         <ModelContent />
-        <Solution />
-      
+       
       </div>
-      <div className="py-10 flex w-full justify-center flex-row relative flex-wrap">
+      <div className="py-10 px-20 flex w-full justify-center flex-row relative flex-wrap">
         <div className="absolute  z-[-9] glowbg w-[100%] md:w-[600px] h-[400px] top-[50px]"></div>
         <FaqAccordian />
-      </div>
+      </div> 
     </div>
   )
 }
