@@ -19,22 +19,16 @@ export const Services = [
       />
     ),
     title: "What is OmniGPT?",
-    desc:(
-<p>
-OmniGPT is a remarkable all-in-one conversational AI solution that revolutionizes productivity and teamwork. With real-time collaboration and communication across multiple channels, teams can seamlessly work together. The advanced AI capabilities automate routine tasks, saving time and resources.
-<h5>
-<Link className="underline  text-gray-400" href=' https://omnigpt.co/'>
-        Learn More
-      </Link>
-
-</h5>
-
-
-</p>
+    desc: (
+      <p>
+        OmniGPT is a remarkable all-in-one conversational AI solution that revolutionizes productivity and teamwork. With real-time collaboration and communication across multiple channels, teams can seamlessly work together. The advanced AI capabilities automate routine tasks, saving time and resources.
+        <h5>
+          <Link className="underline  text-gray-400" href=' https://omnigpt.co/'>
+            Learn More
+          </Link>
+        </h5>
+      </p>
     )
- 
-     
-   
   },
   {
     icon: (
@@ -113,7 +107,7 @@ OmniGPT is a remarkable all-in-one conversational AI solution that revolutionize
     ),
     title: "Is there a community or support available if I have questions?",
     desc: (
-      <p> 
+      <p>
         Yes!
         <Link className="underline px-2 text-gray-400" href='https://app.omnigpt.co/login'>
           Join our Discord Channel
@@ -128,7 +122,59 @@ OmniGPT is a remarkable all-in-one conversational AI solution that revolutionize
 
 ];
 
+export const LLmsModel = [
+  {
+    icon: (
+      <FaConnectdevelop
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
 
+      />
+    ),
+    title: "What is an LLM? ",
+    desc: (
+      <p>
+        An LLM (Large Language Model) is a type of artificial intelligence (AI) designed to process and understand human language.
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+    )
+  },
+  {
+    icon: (
+      <MdAnimation
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "What is the [LLM Name] model?",
+    desc: ( 
+      <p>
+              The [LLM Name] model is a specific type of LLM developed by [Developer/Company] for general-purpose language understanding and generation.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+    )
+    },
+  {
+    icon: (
+      <MdOutlineAutoAwesomeMotion
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "How can I use the [LLM Name] model?",
+    desc: "The [LLM Name] model can be used for a variety of applications, including general conversational AI, content generation, language translation, coding and programming, and more.",
+  },
+  {
+    icon: (
+      <MdOutlineAutoAwesomeMotion
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "What are some specific use cases for the [LLM Name] model?",
+    desc: " Some specific use cases for the [LLM Name] model include building chatbots, generating articles and blog posts, translating text from one language to another, and even writing code in programming languages like Python and Java"
+  },
+];
 export const ServiceItem = [
   {
     title: 'HR Managers',

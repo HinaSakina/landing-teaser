@@ -1,8 +1,7 @@
 import React from 'react'
-import FaqAccordian from '@/common/component/element/FaqAccordian'
-import Solution from '../../Solution'
 import Image from '@/common/component/element/Image'
 import ModelContent from './ModelContent'
+import ModelFaqs from './ModelFaqs'
 const ModelsPage = () => {
   return (
     <div>
@@ -22,7 +21,7 @@ const ModelsPage = () => {
       </div>
       <div className="py-10 px-20 flex w-full justify-center flex-row relative flex-wrap">
         <div className="absolute  z-[-9] glowbg w-[100%] md:w-[600px] h-[400px] top-[50px]"></div>
-        <FaqAccordian />
+        <ModelFaqs/>
       </div> 
     </div>
   )

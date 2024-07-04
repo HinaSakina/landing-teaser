@@ -27,7 +27,7 @@ export default function Feature() {
       </ComponentTransition>
      
       <Card Content={ServiceItem} />
-  
+      
       <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3">
         <Link href="/solution" className="w-full rounded-full">
           <Button

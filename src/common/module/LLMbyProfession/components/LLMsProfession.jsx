@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from '@/common/component/element/Image'
 import Service from '../../Service'
-import LLMsContent from './LLmsContent'
+import LLMsContent from './LLMsContent'
 const LLMsProfession = () => {
     return (
+
         <div className="h-auto max-w-[1500px] flex flex-col items-center justify-center mt-20 max-md:px-5 px-10 xl:px-20  overflow-hidden">
             <div className="flex justify-center m-8 relative">
-                <h1 className="text-[2.5rem]   items-center text-white font-bold">
+                <h1 className="text-[2.5rem]   items-center  font-bold">
                     [Modal Name] for Product Managers
-
                 </h1>
             </div>
             <div className="flex  w-full justify-center items-center flex-col">
@@ -22,11 +22,16 @@ const LLMsProfession = () => {
                 />
             </div>
             <div className="py-10 px-10 max-md:px-5 md:px-32 text-justify">
-                <p className='pb-5 leading-relaxed'>[ModelName], developed by [CompanyName], is designed to revolutionize the way Product Managers approach their roles. With advancements across various versions has continually evolved to enhance productivity, decision-making, and team collaboration for Product Managers.</p>
+                <p className='pb-5 leading-relaxed'>
+                    [ ModelName], developed by [CompanyName], is designed to revolutionize the way Product Managers approach their roles. With advancements across various versions, from [Version 1] to the latest [Version 2], [Version 3] has continually evolved to enhance productivity, decision-making, and team collaboration for Product Managers.
+                </p>
             </div>
             <Service />
-           <LLMsContent/>
-          
+            <LLMsContent />
+            {/* <div className="p-6 md:p-10 flex justify-center flex-wrap relative">
+                <div className="absolute z-[-9] glowbg w-full md:w-[600px] h-[400px] top-[50px]"></div>
+                <FaqAccordian />
+            </div> */}
         </div>
 
 
