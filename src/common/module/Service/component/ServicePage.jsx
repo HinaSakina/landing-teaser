@@ -186,10 +186,7 @@ export default function ServicePage() {
           </p>
         </ComponentTransition>
 
-
-        <Feedback className='!px-0' />
       </div>
-      <CardOffer title='Ready To Get Started!' className="!px-0" />
     </ComponentTransition>
   );
 }

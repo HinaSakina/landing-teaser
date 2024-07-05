@@ -56,9 +56,7 @@ export default function SolutionPage() {
         ))}
       </div>
       <div className="w-full mt-32">
-      <Feedback className='!px-0' />
       </div>
-      <CardOffer title='Ready To Get Started!' className="!px-0" />
     </ComponentTransition>
   );
 }
