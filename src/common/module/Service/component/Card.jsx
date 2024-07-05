@@ -1,4 +1,5 @@
 
+'use client';
 import React from "react";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 import Image from "@/common/component/element/Image";
