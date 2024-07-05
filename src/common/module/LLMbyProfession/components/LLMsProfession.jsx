@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '@/common/component/element/Image'
 import ComponentTransition from '@/common/component/element/ComponentTransition'
-import LLMsContent from './LLMsContent'
+import LLMsDetails from './LLMsDetails'
 import Faqs from './Faqs'
 import Card from '../../Service/component/Card'
 import SectionHeading from '@/common/component/element/SectionHeading'
@@ -50,7 +50,7 @@ const LLMsProfession = () => {
                 </h1>
             </ComponentTransition>
             <Card />
-            <LLMsContent />
+            <LLMsDetails />
             <div className="p-6 md:p-10 flex justify-center flex-wrap relative">
                 <div className="absolute z-[-9] glowbg w-full md:w-[600px] h-[400px] top-[50px]"></div>
                 <Faqs />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LLMsContent = () => {
+const LLMsDetails = () => {
   return (
     <div>
        <div>
@@ -97,6 +97,6 @@ const LLMsContent = () => {
   )
 }
 
-export default LLMsContent
+export default LLMsDetails
 
 
