@@ -4,7 +4,7 @@ import Image from '@/common/component/element/Image'
 import FaqAccordian from '@/common/component/element/FaqAccordian'
 import { usePathname } from 'next/navigation';
 import ComponentTransition from '@/common/component/element/ComponentTransition'
-import { ProfessionItem } from '@/common/constant/Service';
+import { AllProessionItem, ProfessionItem } from '@/common/constant/Service';
 import FeatureCard from './Card';
 import FaqsHeading from '@/common/component/element/FaqsHeading';
 import { SiKnowledgebase } from "react-icons/si";
@@ -12,7 +12,7 @@ import SectionHeading from '@/common/component/element/SectionHeading';
 import Card from '../../Service/component/Card';
 const Professionpage = () => {
   const pathname = usePathname();
-  const profession = ProfessionItem.find((item) => `/profession/${item.slug}` === pathname);
+  const profession = AllProessionItem.find((item) => `/profession/${item.slug}` === pathname);
 
   return (
     <div>
