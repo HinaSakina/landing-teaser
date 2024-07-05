@@ -1,6 +1,4 @@
 
-import { WiDayCloudy } from "react-icons/wi";
-import { FaCode } from "react-icons/fa";
 export const CardItem = [
     {
         img: '/img1.png',
@@ -103,69 +101,4 @@ export const SolutionAllItem = [
 
 ]
 
-export const CardContent = [
-    {
-        id: 1,
-        icon: <WiDayCloudy size={50} />,
-        title: "Gemini",
-        description: "Elevate Your Business with Teaser SaaS!",
-        text: "Unveil the future of efficiency with Teaser SaaS – a cutting-edge solution designed to streamline your operations",
-        slug: "gemini",
-
-    },
-    {
-        id: 2,
-        icon: <FaCode size={40} />,
-        title: "Claude ",
-        description: "Your Gateway to Streamlined Excellence",
-        text: "Dive into the future of efficient business operations with Teaser SaaS. Our solution is crafted to streamline your SaaS experience",
-        slug: "claude",
-
-    },
-
-    {
-        id: 3,
-        icon: <FaCode size={40} />,
-        title: "GPT ",
-        description: " Teaser SaaS - Redefining Productivity",
-        text: "Tailored website solutions to meet specific business needs and goals.",
-        slug: "GPT",
-
-    },
-    {
-        id: 4,
-        icon: <FaCode size={40} />,
-        title: "Llama ",
-        description: " Your Gateway to Streamlined Excellence",
-        text: "Simplify your SaaS experience with Teaser, where optimization meets success",
-        slug: "Llama",
-
-    },
-    {
-        id: 5,
-        icon: <FaCode size={40} />,
-        title: " Mistral ",
-        description: "Teaser - Your Strategic Partner!",
-        text: "Teaser SaaS is more than a solution; it&rsquo;s your strategic partner in achieving operational excellence",
-        slug: " Mistral",
-
-    },
-    {
-        id: 6,
-        icon: <FaCode size={40} />,
-        title: "Perplexity ",
-        description: "Teaser Unleashes Creativity!",
-        text: " Teaser SaaS invites you to innovate with confidence. Our solution is a catalyst for creativity",
-        slug: "Perplexity",
-
-    },
-    {
-        id: 7,
-        icon: <FaCode size={40} />,
-        title: "Dall-E ",
-        description: "Teaser Unleashes Creativity!",
-        text: "Your success story deserves a tailored solution. Enter Teaser SaaS – a platform customizable to meet your unique business needs.",
-        slug: "dall-E",
-
-    },
-];
+ 

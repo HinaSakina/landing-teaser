@@ -147,13 +147,13 @@ export const LLmsModel = [
       />
     ),
     title: "What is the [LLM Name] model?",
-    desc: ( 
+    desc: (
       <p>
-              The [LLM Name] model is a specific type of LLM developed by [Developer/Company] for general-purpose language understanding and generation.
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        The [LLM Name] model is a specific type of LLM developed by [Developer/Company] for general-purpose language understanding and generation.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </p>
     )
-    },
+  },
   {
     icon: (
       <MdOutlineAutoAwesomeMotion
@@ -175,7 +175,89 @@ export const LLmsModel = [
     desc: " Some specific use cases for the [LLM Name] model include building chatbots, generating articles and blog posts, translating text from one language to another, and even writing code in programming languages like Python and Java"
   },
 ];
-export const ServiceItem = [
+
+export const LLmsProfessionFaqs = [
+  {
+    icon: (
+      <FaConnectdevelop
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+
+      />
+    ),
+    title: "What is [LLM Name] and how does it support [Profession Name]?",
+    desc: "[LLM Name] is a powerful language model designed to support [Profession Name] in their daily work. It offers a range of capabilities that can enhance productivity, decision-making, summarization, correct grammar mistakes, translation, etc."
+  },
+  {
+    icon: (
+      <MdAnimation
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "How does [LLM Name] facilitate text generation for [Profession Name]?",
+    desc: "LLM Name] is a language model that can generate human-like text based on a given prompt or context, enabling [Profession Name] to create high-quality content quickly and efficiently."
+  },
+  {
+    icon: (
+      <MdOutlineAutoAwesomeMotion
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "What role does [LLM Name] play in language translation for [Profession Name]?",
+    desc: "[LLM Name] is a powerful tool that can accurately translate text from one language to another, breaking language barriers and enabling [Profession Name] to communicate effectively."
+  },
+  {
+    icon: (
+      <MdOutlineAutoAwesomeMotion
+        size={size}
+        className="group-hover:rotate-90 transition-all duration-300"
+      />
+    ),
+    title: "How does [LLM Name] assist with sentiment analysis for [Profession Name]?",
+    desc: "[LLM Name] can analyze large amounts of text data to identify sentiment patterns, enabling [Profession Name] to gauge public opinion, track brand reputation, and make data-driven decisions."
+  },
+];
+export const ProfessionItem = [
+  {
+    title: 'HR Managers',
+    desc: 'Oversees employee recruitment, onboarding, and development.',
+    icon: <ImProfile className="h-12 w-12 mb-4 dark:text-white text-black " />,
+    slug: 'hr-managers'
+  },
+  {
+    title: 'Project Manager',
+    desc: 'Plans, executes, and monitors projects to ensure successful completion.',
+    icon: <FaPager className="h-12 w-12 mb-4 dark:text-white text-black " />,
+    slug: 'project-manager'
+  },
+  {
+    title: 'Product Manager',
+    desc: 'Leads the strategy, development, and launch of a product.',
+    icon: <IoDiamondOutline className="h-12 w-12 mb-4 dark:text-white text-black " />,
+    slug: 'product-manager'
+  },
+  {
+    title: 'Marketer',
+    desc: "Creates and implements strategies to promote a company's products or services.",
+    icon: <CiShop className="h-12 w-12 mb-4 dark:text-white text-black " />,
+    slug: 'marketer'
+  },
+  {
+    title: 'Business Analyst',
+    desc: 'Analyzes business needs and develops solutions to improve efficiency.',
+    icon: <IoIosSchool className="h-12 w-12 mb-4 dark:text-white text-black " />,
+    slug: 'business-analyst'
+  },
+  {
+    title: 'Operations Manager',
+    desc: 'Optimizes day-to-day business processes to ensure smooth operations.',
+    icon: <FaPiedPiper className="h-12 w-12 mb-4 dark:text-white text-black " />,
+    slug: 'operations-manager'
+  },
+]
+export const AllProessionItem = [
   {
     title: 'HR Managers',
     desc: 'Oversees employee recruitment, onboarding, and development.',

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '@/common/component/element/Image'
 import ModelContent from './ModelContent'
-import ModelFaqs from './ModelFaqs'
+import Faqs from './Faqs'
 const ModelsPage = () => {
   return (
     <div>
@@ -17,11 +17,10 @@ const ModelsPage = () => {
           />
         </div>
         <ModelContent />
-       
       </div>
       <div className="py-10 px-20 flex w-full justify-center flex-row relative flex-wrap">
         <div className="absolute  z-[-9] glowbg w-[100%] md:w-[600px] h-[400px] top-[50px]"></div>
-        <ModelFaqs/>
+        <Faqs/>
       </div> 
     </div>
   )

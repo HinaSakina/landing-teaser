@@ -5,61 +5,468 @@ export const FooterItem = [
     {
         title: 'Explore',
         child_1: {
-            title: 'About Teaser Name',
-            href: '/about',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_2: {
-            title: 'Our Solutions',
-            href: '/solution',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_3: {
-            title: 'Our Blog',
-            href: '/blog',
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_4: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_5: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_6: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_7: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_8: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_9: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_10: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_11: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_12: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_13: {
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
     },
     {
-        title: 'Expertise',
+        title: 'Explore',
         child_1: {
-            title: 'Cloud Integration Solutions',
-            href: '/services',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_2: {
-            title: 'Custom Web Development',
-            href: '/services',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_3: {
-            title: 'Data Analytics and Insights',
-            href: '/services',
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_4: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_5: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_6: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_7: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_8: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_9: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_10: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_11: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_12: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_13: {
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
     },
     {
-        title: 'Services',
+        title: 'Explore',
         child_1: {
-            title: 'Cybersecurity & Compliance',
-            href: '/services',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_2: {
-            title: 'AI-Powered Automation',
-            href: '/services',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_3: {
-            title: 'User Experience Design',
-            href: "/services",
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_4: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_5: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_6: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_7: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_8: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_9: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_10: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_11: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_12: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_13: {
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
     },
     {
-        title: 'Info',
+        title: 'Explore',
         child_1: {
-            title: 'FAQ',
-            href: '/faq',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_2: {
-            title: 'Documentation',
-            href: '/faq',
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
         child_3: {
-            title: 'Get in touch',
-            href: '/contact'
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_4: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_5: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_6: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_7: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_8: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_9: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_10: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_11: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_12: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_13: {
+            title: '[LLM] for [Profession]',
+            href: '/',
         },
     },
+    {
+        title: 'Explore',
+        child_1: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_2: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_3: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_4: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_5: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_6: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_7: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_8: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_9: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_10: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_11: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_12: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_13: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+    },
+    {
+        title: 'Explore',
+        child_1: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_2: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_3: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_4: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_5: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_6: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_7: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_8: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_9: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_10: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_11: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_12: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+        child_13: {
+            title: '[LLM] for [Profession]',
+            href: '/',
+        },
+    },
+   
+]
+
+export const Footeritem = [
+    {
+        child_1: {
+            title: "How to Clean Data Efficiently with (LLM) for Data Scientists",
+            href: "/",
+        },
+    
+        child_2: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+    
+        child_3: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_4: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_5: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_6: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_7: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_8: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_9: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_10: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+    },
+    {
+        child_1: {
+            title: "How to Clean Data Efficiently with (LLM) for Data Scientists",
+            href: "/",
+        },
+    
+        child_2: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+    
+        child_3: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_4: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_5: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_6: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_7: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_8: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_9: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_10: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+    },
+    {
+        child_1: {
+            title: "How to Clean Data Efficiently with (LLM) for Data Scientists",
+            href: "/",
+        },
+    
+        child_2: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+    
+        child_3: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_4: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_5: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_6: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_7: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_8: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_9: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+        child_10: {
+            title: "[ --- Dynamic Blog Post Title with Dynamic LLM Name --- ]",
+            href: "/",
+        },
+    },
+  
 ]
