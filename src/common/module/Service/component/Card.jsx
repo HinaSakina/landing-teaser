@@ -19,13 +19,10 @@ const Card = () => {
             className=""
           />
 
-          <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
+          <h1 className="text-2xl font-bold py-2 mt-2 text-neutral-800 dark:text-neutral-100">
             {item.title}
           </h1>
-          <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-            {item.description}
-          </h2>
-          <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-3">
+          <p className="text-base text-neutral-700 dark:text-neutral-400  md:line-clamp-2 lg:line-clamp-4 line-clamp-3">
             {item.text}
           </p>
         </ComponentTransition>
