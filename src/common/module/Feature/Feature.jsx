@@ -27,7 +27,7 @@ export default function Feature() {
       <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3">
         <Link href="/profession" className="w-full rounded-full">
           <Button
-            title="View All Profesion"
+            title="View All Professions"
             className="hover:!bg-neutral-950 hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
           />
         </Link>
