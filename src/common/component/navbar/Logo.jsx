@@ -7,7 +7,7 @@ export default function Logo() {
   return (
     <>
       <Image
-        className="w-[100%]  h-auto object-cover bg-transparent"
+        className="w-[160px]  h-auto object-cover bg-transparent"
         src={theme === 'light' ? '/WordLogoLightBg.svg' : '/WordLogo.svg'}
         alt="Image"
         width={400}
